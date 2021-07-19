@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Validation(failed)">
+    <classes>
+      <class name="com.automation.businessscripts.FipkartValidation">
+        <methods>
+          <include name="initReports"/>
+          <include name="validateFlipkart"/>
+          <include name="afterTestExecution"/>
+          <include name="openBrowser"/>
+          <include name="beforeTestExecution"/>
+        </methods>
+      </class> <!-- com.automation.businessscripts.FipkartValidation -->
+    </classes>
+  </test> <!-- Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

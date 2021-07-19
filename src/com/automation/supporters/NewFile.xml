@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <MEN>
+ <POP_UP>button</POP_UP>
+<BU_xpath>//button[@class='_2KpZ6l _2doB4z']</BU_xpath>
+<MEN_CLOTH>link</MEN_CLOTH>
+<L_XPATH>//span[@class='_2I9KP_'][text()='Men']</L_XPATH>
+ </MEN>
+ 

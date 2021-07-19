@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17581" started-at="2021-07-16T04:37:25Z" finished-at="2021-07-16T04:37:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17581" started-at="2021-07-16T04:37:25Z" finished-at="2021-07-16T04:37:43Z">
+      <class name="com.automation.businessscripts.FlipkartVladiation2">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="openBrowser" is-config="true" duration-ms="2098" started-at="2021-07-16T10:07:23Z" finished-at="2021-07-16T10:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initReports()[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="initReports" is-config="true" duration-ms="224" started-at="2021-07-16T10:07:25Z" finished-at="2021-07-16T10:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method status="PASS" signature="beforeTestExecution(java.lang.reflect.Method)[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="beforeTestExecution" is-config="true" duration-ms="3" started-at="2021-07-16T10:07:26Z" finished-at="2021-07-16T10:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.businessscripts.FlipkartVladiation2.validateFlipkart2() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestExecution -->
+        <test-method status="PASS" signature="validateFlipkart2()[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="validateFlipkart2" duration-ms="16493" started-at="2021-07-16T10:07:26Z" finished-at="2021-07-16T10:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlipkart2 -->
+        <test-method status="PASS" signature="afterTestExecution(org.testng.ITestResult)[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="afterTestExecution" is-config="true" duration-ms="664" started-at="2021-07-16T10:07:42Z" finished-at="2021-07-16T10:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFlipkart2 status=SUCCESS method=FlipkartVladiation2.validateFlipkart2()[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestExecution -->
+        <test-method status="PASS" signature="closeReports()[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="closeReports" is-config="true" duration-ms="188" started-at="2021-07-16T10:07:43Z" finished-at="2021-07-16T10:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.businessscripts.FlipkartVladiation2@4bec1f0c]" name="closeBrowser" is-config="true" duration-ms="4129" started-at="2021-07-16T10:07:43Z" finished-at="2021-07-16T10:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.businessscripts.FlipkartVladiation2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
