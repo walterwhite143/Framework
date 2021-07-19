@@ -66,10 +66,7 @@ public class FlipkartVladiation2 extends BaseTest {
                 System.out.println("1 row 2 cell"+cell11Value);
 	        }
 	                  String text =  Clothing.getText();
-	                   // webelement clothing (selenium  xpath value) and excel lo clothing  value 
-	                   //   simply i want  to print  the value  webelement  clthing = drive.finElement
-	                  //  ( clothing i have taken from excel )
-	                  // validation 
+	                 
 	                  if(text.contains(cell11Value) ){
 	                	  System.out.println("it is clothing value");
 	                  }
